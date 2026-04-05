@@ -1,0 +1,77 @@
+﻿{
+    "schemaVersion":  1,
+    "name":  "LPL Official",
+    "description":  "Official League Plugin Loader feed.",
+    "plugins":  [
+                    {
+                        "id":  "auto-accept",
+                        "name":  "Auto Accept",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "Automatically accepts League ready-checks when a match is found.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "automation",
+                                     "lobby",
+                                     "queue"
+                                 ],
+                        "permissions":  {
+                                            "league":  true,
+                                            "storage":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/auto-accept/auto-accept-0.1.0.zip",
+                                                    "sha256":  "bb437110a1cb987a4c9c9e2ce9a3a6f65aefa3c494a59073077b0617b24aaf47"
+                                                }
+                                    }
+                    },
+                    {
+                        "id":  "group-inviter",
+                        "name":  "Group Inviter",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "Adds an Invite Folder action for League friend folders and invites online friends from that folder to your current lobby.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "social",
+                                     "lobby",
+                                     "friends"
+                                 ],
+                        "permissions":  {
+                                            "dom":  true,
+                                            "league":  true,
+                                            "storage":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/group-inviter/group-inviter-0.1.0.zip",
+                                                    "sha256":  "a0841072dbaf41da32a31888595d88eb8ba6f8076f78678c2c364480512e20e6"
+                                                }
+                                    }
+                    },
+                    {
+                        "id":  "example-plugin",
+                        "name":  "Example Plugin",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "A minimal example plugin to get started.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "example",
+                                     "starter"
+                                 ],
+                        "permissions":  {
+                                            "dom":  true,
+                                            "storage":  true,
+                                            "events":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/example-plugin/example-plugin-0.1.0.zip",
+                                                    "sha256":  "7bca105289f97ed87d0674da3c12af7a99d7f3a7728e6087845f1b86704c7939"
+                                                }
+                                    }
+                    }
+                ]
+}
