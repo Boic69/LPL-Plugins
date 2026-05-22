@@ -6,7 +6,7 @@
                     {
                         "id":  "auto-accept",
                         "name":  "Auto Accept",
-                        "version":  "0.1.0",
+                        "version":  "0.2.0",
                         "author":  "Boic69",
                         "description":  "Automatically accepts League ready-checks when a match is found.",
                         "repo":  "https://github.com/Boic69/LPL-Plugins",
@@ -21,8 +21,8 @@
                                         },
                         "package":  {
                                         "zip":  {
-                                                    "url":  "packages/auto-accept/auto-accept-0.1.0.zip",
-                                                    "sha256":  "bb437110a1cb987a4c9c9e2ce9a3a6f65aefa3c494a59073077b0617b24aaf47"
+                                                    "url":  "packages/auto-accept/auto-accept-0.2.0.zip",
+                                                    "sha256":  "b1ff30b2047a530304baffec57db5f3d7f09018e87102376f46a61d8d795a6cc"
                                                 }
                                     }
                     },
