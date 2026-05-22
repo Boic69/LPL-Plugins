@@ -53,7 +53,7 @@
                     {
                         "id":  "auto-reporter",
                         "name":  "Auto Reporter",
-                        "version":  "0.1.0",
+                        "version":  "0.1.1",
                         "author":  "Boic69",
                         "description":  "Post-game report assistant with lobby-aware teammate filtering and preview mode.",
                         "repo":  "https://github.com/Boic69/LPL-Plugins",
@@ -69,8 +69,8 @@
                                         },
                         "package":  {
                                         "zip":  {
-                                                    "url":  "packages/auto-reporter/auto-reporter-0.1.0.zip",
-                                                    "sha256":  "2861e7a52494e1907fbb7eb82d7d84e699eb463507ac40219d3758b42d183a8f"
+                                                    "url":  "packages/auto-reporter/auto-reporter-0.1.1.zip",
+                                                    "sha256":  "ac9653a62a038008c1221833bad5243df40d0bb7d29e1e5a14a1665cac9fa4b8"
                                                 }
                                     }
                     },
