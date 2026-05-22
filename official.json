@@ -51,6 +51,30 @@
                                     }
                     },
                     {
+                        "id":  "auto-reporter",
+                        "name":  "Auto Reporter",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "Post-game report assistant with lobby-aware teammate filtering and preview mode.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "automation",
+                                     "post-game",
+                                     "reporting"
+                                 ],
+                        "permissions":  {
+                                            "dom":  true,
+                                            "league":  true,
+                                            "storage":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/auto-reporter/auto-reporter-0.1.0.zip",
+                                                    "sha256":  "2861e7a52494e1907fbb7eb82d7d84e699eb463507ac40219d3758b42d183a8f"
+                                                }
+                                    }
+                    },
+                    {
                         "id":  "example-plugin",
                         "name":  "Example Plugin",
                         "version":  "0.1.0",
