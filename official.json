@@ -100,7 +100,7 @@
                     {
                         "id":  "champ-select-remote",
                         "name":  "Champ Select Remote",
-                        "version":  "0.1.0",
+                        "version":  "0.2.0",
                         "author":  "Boic69",
                         "description":  "Pick, ban, and set runes and summoner spells from your phone or browser during champ select.",
                         "repo":  "https://github.com/Boic69/LPL-Plugins",
@@ -116,8 +116,78 @@
                                         },
                         "package":  {
                                         "zip":  {
-                                                    "url":  "packages/champ-select-remote/champ-select-remote-0.1.0.zip",
-                                                    "sha256":  "0c00739384afdbc18af9ffd79c2364b07674031f9b4fd11aa779ddd6502a4c48"
+                                                    "url":  "packages/champ-select-remote/champ-select-remote-0.2.0.zip",
+                                                    "sha256":  "e9f33a7886c16b26950db63e0be553266f8e1e76254bfc4992d6bb1916b6fc91"
+                                                }
+                                    }
+                    },
+                    {
+                        "id":  "build-importer",
+                        "name":  "Build Importer",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "Import runes, item sets and summoner spells in champ select from build provider addons such as Lolalytics and lolvvv.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "champ-select",
+                                     "runes",
+                                     "items"
+                                 ],
+                        "permissions":  {
+                                            "dom":  true,
+                                            "league":  true,
+                                            "storage":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/build-importer/build-importer-0.1.0.zip",
+                                                    "sha256":  "67b6dc8f996610e50efff806b1846d2ae5e46d17ab22f2d1d321fbb5f9c52d85"
+                                                }
+                                    }
+                    },
+                    {
+                        "id":  "lolalytics-provider",
+                        "name":  "Lolalytics",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "Lolalytics builds for Build Importer: runes, item sets and summoner spells, by rank. Needs Build Importer.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "build-provider",
+                                     "runes",
+                                     "items"
+                                 ],
+                        "permissions":  {
+                                            "storage":  true,
+                                            "network":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/lolalytics-provider/lolalytics-provider-0.1.0.zip",
+                                                    "sha256":  "b8dc694e9147dc569cc505026d0e1391acb96b1acd9262a4713259c70fed23a8"
+                                                }
+                                    }
+                    },
+                    {
+                        "id":  "lolvvv-provider",
+                        "name":  "lolvvv",
+                        "version":  "0.1.0",
+                        "author":  "Boic69",
+                        "description":  "Pro-game builds from lolvvv for Build Importer: the runes, items and spells pros use most. Needs Build Importer.",
+                        "repo":  "https://github.com/Boic69/LPL-Plugins",
+                        "tags":  [
+                                     "build-provider",
+                                     "pro-builds"
+                                 ],
+                        "permissions":  {
+                                            "league":  true,
+                                            "storage":  true,
+                                            "network":  true
+                                        },
+                        "package":  {
+                                        "zip":  {
+                                                    "url":  "packages/lolvvv-provider/lolvvv-provider-0.1.0.zip",
+                                                    "sha256":  "3b0482f142cbc721c5f00fa62e5423eeeb61112cfc3413dc2856bea6b996ef41"
                                                 }
                                     }
                     }
